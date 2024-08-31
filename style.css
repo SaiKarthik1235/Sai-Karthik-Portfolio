@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  #nameLogo {
+    width: 20px;
+  }
+  #navcontain {
+    padding: 0% 5%;
+  }
+  #navbttn {
+    color: white;
+    background-color: white;
+  }
+  #navLinkss{
+      font-size: x-large;
+      padding-left: 20px;
+      margin: auto;
+  }
+  .nav-link {
+    color: white;
+  }
+  .nav-link:visited {
+    color: white;
+  }
+  .nav-link:hover {
+    color: rgb(76, 191, 237);
+  }
+  .firstPart {
+    text-align: center;
+    color: white;
+  }
+  .btn {
+    margin: auto;
+    background-color: rgb(76, 191, 237) ;
+    color: black;
+  }
+  
+  .myImg{
+      width: 50%;
+      height: 75%;
+      border-radius: 50%;
+  }
+  
+  .r1 {
+    height: 80vh;
+  }
+  .r2 {
+    height: 100%;
+  }
+  .course{
+      color: rgb(76, 191, 237);
+  }
+  .ImgSec {
+      padding: 10%;
+  
+  }
+  .skillimg{
+      background-color: white;
+      padding: 10%;
+      height: 80%;
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 0 0 10px 2px white;
+      transition: 0.5s;
+  }
+  .skillimg:hover{
+      transform:scale(1.2);
+      z-index: 2;
+  }
+  .logoname{
+      font-size: 30px;
+      padding: 10%;
+  }
+  .foot{
+      text-align: center;
+      background-color: white;
+      color: black;
+  }
+  .footInfo{
+      padding: 10px;
+      margin: 0;
+  }
