@@ -13,7 +13,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <nav class="navbar top-fixed navbar-expand-lg bg-black col-12" id="navcontain">
+            <nav class="navbar navbar-expand-lg bg-black col-12" id="navcontain">
                 <div class="container-fluid">
                     <a class="navbar-brand mt-3" href="#"><img style="width: 10vw;"
                             src="Black and Gold Classy Minimalist Circular Name Logo.png" alt="Logo"></a>
@@ -24,10 +24,10 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav" id="navLinkss">
-                            <a class="nav-link navLinks" aria-current="page" href="#Home">Home</a>
-                            <a class="nav-link" href="#Myself">About</a>
-                            <a class="nav-link" href="#Skills">Skills</a>
-                            <a class="nav-link" href="#ContactUs">Contact Me</a>
+                            <a class="nav-link  navLinks" aria-current="page" href="#Home">Home</a>
+                            <a class="nav-link" style="padding-left: 50px; color: rgb(76, 191, 237);" href="#Myself">About</a>
+                            <a class="nav-link" style="padding-left: 50px; color: rgb(76, 191, 237);" href="#Skills">Skills</a>
+                            <a class="nav-link" style="padding-left: 50px; color: rgb(76, 191, 237);" href="#ContactUs">Contact Me</a>
                         </div>
                     </div>
                 </div>
@@ -37,19 +37,20 @@
     </div>
     <div class="container-fluid pt-5 pb-5">
         <div class="row r1">
-            <div class="firstPart col-12 col-md-6 d-flex flex-column justify-content-center">
+            <div class="firstPart order-2 order-md-1 col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
                 <div class="firstInfo">
                     <h1>Hello everyone!</h1><br>
-                    <p>My name is P Sai Karthik. I am a <span style="color: rgb(76, 191, 237);">Web Developer</span>.</p><br>
-                    <button type="button" class="btn">Check my CV</button>
+                    <p>My name is P Sai Karthik. I am a <span style="color: rgb(76, 191, 237);">Web Developer</span>.
+                    </p><br>
+                    <a href="https://drive.google.com/file/d/1Dq967HApPq8qMSs7YewnKBXpoeEelBeh/view?usp=sharing"><button type="button" class="btn">Check my CV</button></a>
                 </div>
             </div>
-            <div class="secondPart col-12 col-md-6 d-flex flex-row justify-content-center">
+            <div class="secondPart order-1 order-md-2 col-12 col-md-6 d-flex flex-row justify-content-center">
                 <img class="myImg" src="myimg.JPG" alt="">
             </div>
         </div>
     </div>
-    <div class="container-fluid  pb-5" id="Myself">
+    <div class="container-fluid pt-3 pb-5" id="Myself">
         <div class="row r2">
             <div class="edufirstPart col-12 col-md-4 d-flex flex-column justify-content-center">
                 <img class="w-100 p-5 m-auto" src="Picsart_23-08-09_00-35-26-999.jpg" alt="">
@@ -87,37 +88,51 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid pt-5 pb-5" id="Skills">
+    <div class="container-fluid p-5" id="Skills">
         <div class="row r3 text-center">
-            <h1 class="SkillsHeadd  col-12">Skills</h1>
-            <div class="col-12 col-lg-6 d-flex flex-row justify-content-center">
-                <div class="ImgSec">
+            <h1 class="SkillsHeadd pb-5 col-12">Skills</h1>
+                <div class="ImgSec col-4 col-md-3">
                     <img src="731_java.jpg" alt="" class=" skillimg">
                     <p class="logoname">Java</p>
                 </div>
-                <div class="ImgSec">
-                    <img src="html5-emblem-orange-shield-and-white-text-vector.jpg" alt="" class=" skillimg">
+                <div class="ImgSec col-4 col-md-3">
+                    <img src="html5-emblem-orange-shield-and-white-text-vector.jpg" alt="" class="skillimg">
                     <p class="logoname">HTML</p>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 d-flex flex-row justify-content-center">
-                <div class="ImgSec">
+                <div class="ImgSec col-4 col-md-3">
                     <img src="csss.jpg" alt="" class="skillimg">
                     <p class="logoname">CSS</p>
                 </div>
-                <div class="ImgSec">
+                <div class="ImgSec col-4 col-md-3">
                     <img src="Javascriptlogo.png" alt="" class="skillimg">
                     <p class="logoname">JavaScript</p>
                 </div>
+                <div class="ImgSec col-4 col-md-3">
+                    <img src="bootstrapLogo.jpg" alt="" class="skillimg">
+                    <p class="logoname">Bootstrap</p>
+                </div>
+                <div class="ImgSec col-4 col-md-3">
+                    <img src="tailwind.png" alt="" class="skillimg">
+                    <p class="logoname">Tailwind CSS</p>
+                </div>
+                <div class="ImgSec col-4 col-md-3">
+                    <img src="github-logo.jpg" alt="" class="skillimg">
+                    <p class="logoname">GitHub</p>
+                </div>
+                <div class="ImgSec col-4 col-md-3">
+                    <img src="sql logo.jpg" alt="" class="skillimg">
+                    <p class="logoname">SQL</p>
+                </div>
             </div>
         </div>
-    </div>
     <footer>
         <div class="foot" id="ContactUs">
             <p class="footInfo">&copy; Design & Developed by P Sai Karthik</p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
