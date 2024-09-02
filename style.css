@@ -2,6 +2,9 @@ body {
     background-color: black;
     color: white;
   }
+  .wholeContain{
+    height: 100vh;
+  }
   #nameLogo {
     width: 20px;
   }
@@ -38,12 +41,12 @@ body {
   
   .myImg{
       width: 50%;
-      height: 75%;
+      height: 100%;
       border-radius: 50%;
   }
   
   .r1 {
-    height: 80vh;
+    height: auto;
   }
   .r2 {
     height: 100%;
@@ -51,15 +54,10 @@ body {
   .course{
       color: rgb(76, 191, 237);
   }
-  .ImgSec {
-      padding: 10%;
-  
-  }
   .skillimg{
       background-color: white;
-      padding: 10%;
-      height: 80%;
-      width: 100%;
+      padding: 2vw;
+      width: 15vw;
       border-radius: 50%;
       box-shadow: 0 0 10px 2px white;
       transition: 0.5s;
@@ -69,7 +67,7 @@ body {
       z-index: 2;
   }
   .logoname{
-      font-size: 30px;
+      font-size: 2vw;
       padding: 10%;
   }
   .foot{
