@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/054215378d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -26,11 +26,14 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav" id="navLinkss">
-                            <a class="nav-link  navLinks" aria-current="page" href="#Home">Home</a>
+                            <a class="nav-link  navLinks" aria-current="page" style="padding-left: 50px;"
+                                href="#Home">Home</a>
                             <a class="nav-link" style="padding-left: 50px; color: rgb(76, 191, 237);"
                                 href="#Myself">About</a>
                             <a class="nav-link" style="padding-left: 50px; color: rgb(76, 191, 237);"
                                 href="#Skills">Skills</a>
+                            <a class="nav-link" style="padding-left: 50px; color: rgb(76, 191, 237);"
+                                href="#projects">Projects</a>
                             <a class="nav-link" style="padding-left: 50px; color: rgb(76, 191, 237);"
                                 href="#ContactUs">Contact Me</a>
                         </div>
@@ -42,16 +45,20 @@
     </div>
     <div class="container-fluid pt-5 pb-5">
         <div class="row r1">
-            <div class="firstPart ps-md-5 order-2 order-md-1 col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
+            <div
+                class="firstPart ps-md-5 order-2 order-md-1 col-12 col-md-6 d-md-flex flex-md-column justify-content-center">
                 <div class="firstInfo text-md-start text-center ps-md-5">
-                    <h1 class="typedText pt-3 p-md-0">Hola Folks!</h1>
-                    <h2>My name is P Sai Karthik.</h2>
+                    <h1 class="HomeText pt-3 p-md-0">Hola Folks!</h1>
+                    <h2 class="HomeTextName">My name is P Sai Karthik.</h2>
                     <div class="wrapper">
-                    <h3>I am a <span id="typing-effect" style="color: rgb(76, 191, 237);">Web Developer</span>.</h3>
-                </div>
-                    <p>I am a passionate web developer with a strong foundation in front-end and back-end technologies. I enjoy creating user-friendly, responsive websites and web applications, with a focus on performance, accessibility, and seamless user experiences. Constantly learning and exploring new tools and technologies.</p>
-                    <a href="https://drive.google.com/file/d/1Dq967HApPq8qMSs7YewnKBXpoeEelBeh/view?usp=sharing"><button
-                            type="button" class="btn">Check my CV</button></a>
+                        <h3>I am a <span id="typing-effect" style="color: rgb(76, 191, 237);">Web Developer</span>.</h3>
+                    </div>
+                    <div class="bttnContainer">
+                        <a href="https://drive.google.com/file/d/1Dq967HApPq8qMSs7YewnKBXpoeEelBeh/view?usp=sharing"><button
+                                type="button" class="btn CVbttn">Check my CV</button></a>
+                        <a href="#ContactUs"><button
+                                type="button" class="btn CVbttn">Contact Me</button></a>
+                    </div>
                 </div>
             </div>
             <div class="secondPart order-1 order-md-2 col-12 col-md-6 d-flex flex-row justify-content-center">
@@ -61,32 +68,31 @@
     </div>
     <div class="container-fluid pt-3 pb-5" id="Myself">
         <div class="row r2">
-            <div class="edufirstPart col-12 col-md-4 d-flex flex-column justify-content-center">
-                <img class="w-100 p-5 m-auto" src="Picsart_23-08-09_00-35-26-999.jpg" alt="">
+            <div class="edufirstPart col-12 col-lg-4 d-flex flex-column justify-content-center">
+                <img class="m-auto p-5 AboutImg" src="Picsart_23-08-09_00-35-26-999.jpg" alt="">
             </div>
-            <div class="eduSecondPart col-12 col-md-8 d-flex flex-column justify-content-center">
-                <h1 class="">About me</h1>
-                <p class="aboutmee">Myself P Sai Karthik, I am a Web Developer with excellent
-                    problem-solving skills and ability to perform well in team. Passionate about coding and looking
-                    forward for first work experience. I have strong hold in java coding launguage and highly motivated
-                    to create
-                    websites using HTML, CSS and Javascript.</p>
+            <div class="eduSecondPart col-12 col-lg-8 d-flex flex-column justify-content-center">
+                <h1 class="aboutmee">About me</h1>
+                <p class="AbouMeInfo">I am a passionate web developer with a strong foundation in front-end and back-end
+                    technologies. I enjoy creating user-friendly, responsive websites and web applications, with a focus
+                    on performance, accessibility, and seamless user experiences. Constantly learning and exploring new
+                    tools and technologies.</p>
                 <div class="study">
-                    <h2 class="pb-3">Education</h2>
+                    <h2 class="aboutmee">Education</h2>
                     <div class="d-md-flex flex-md-row">
-                        <div class="1 p-3">
+                        <div class="AbouMeInfo p-3">
                             <h4 class="course">Bachelor's of Technology</h4>
                             <p class="clg">Veer Surendra Sai University of Technology, Burla</p>
                             <p class="branch">Electrical and Electronics Engineering</p>
                             <p class="year">2020-2024</p>
                         </div>
-                        <div class="2 p-3">
+                        <div class="AbouMeInfo p-3">
                             <h4 class="course">Intermediate</h4>
                             <p class="clg">Narayana Junior College, Vishakapatnam</p>
                             <p class="year">Board of Intermediate Education, Andhra Pradesh</p>
                             <p class="year">2018-2020</p>
                         </div>
-                        <div class="3 p-3">
+                        <div class="AbouMeInfo p-3">
                             <h4 class="course">Matriculation</h4>
                             <p class="clg">DAV Public School, Berhampur</p>
                             <p class="year">CBSE</p>
@@ -135,39 +141,48 @@
         </div>
     </div>
     <section id="projects" class="py-5"></section>
-        <div class="container pb-5">
-            <div class="row pb-5">
-                <div class="texxt text-center col-12"><h1 class=" ">Projects</h1>
-                    <p class="pb-5">Check out some of my personal projects</p>
-                </div>
-                
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
-                    <a href="https://saikarthik1235.github.io/Sai-Karthik-Portfolio/" target="_blank">
-                        <div class="project-card">
-                            <img src="portfolio1.jpg" alt="Portfolio Project" class="img-fluid">
-                            <div class="project-info">
-                                <h3>Portfolio</h3>
-                                <p>Created using HTML, CSS, JavaScript</p>
-                            </div>
+    <div class="container pb-5">
+        <div class="row pb-5">
+            <div class="texxt text-center col-12">
+                <h1 class=" ">Projects</h1>
+                <p class="pb-5">Check out some of my personal projects</p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <a href="https://saikarthik1235.github.io/Sai-Karthik-Portfolio/" target="_blank">
+                    <div class="project-card">
+                        <img src="portfolio1.jpg" alt="Portfolio Project" class="img-fluid">
+                        <div class="project-info">
+                            <h3>Portfolio</h3>
+                            <p>Created using HTML, CSS, JavaScript</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
-                    <a href="https://food-munch01.vercel.app/" target="_blank">
-                        <div class="project-card">
-                            <img src="uplogic-homesiteblog.png" alt="Food Ordering Website" class="img-fluid">
-                            <div class="project-info">
-                                <h3>Food Ordering Website</h3>
-                                <p>Created using HTML, CSS, JavaScript</p>
-                            </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                <a href="https://food-munch01.vercel.app/" target="_blank">
+                    <div class="project-card">
+                        <img src="uplogic-homesiteblog.png" alt="Food Ordering Website" class="img-fluid">
+                        <div class="project-info">
+                            <h3>Food Ordering Website</h3>
+                            <p>Created using HTML, CSS, JavaScript</p>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
         </div>
+    </div>
     </section>
     <footer>
-        <div class="foot" id="ContactUs">
+        <div class="footContainer text-center pt-3 " id="ContactUs">
+            <a href="mailto:psaikarthik323@gmail.com"><p>psaikarthik323@gmail.com</p></a>
+            <div class="logoContainer">
+                <a href="mailto:psaikarthik323@gmail.com"><i class="fa-solid fa-envelope footlogo"></i></a>
+                <a href="https://github.com/SaiKarthik1235"><i class="fa-brands fa-github footlogo"></i></a>
+                <a href=""><i class="fa-brands fa-twitter footlogo"></i></a>
+                <a href="www.linkedin.com/in/sai-karthik-5b354a264"><i class="fa-brands fa-linkedin footlogo"></i></a>
+                <a href="https://www.instagram.com/p_sai_karthik/"><i class="fa-brands fa-instagram footlogo"></i></a>
+            </div>
             <p class="footInfo">&copy; Design & Developed by P Sai Karthik</p>
         </div>
     </footer>
