@@ -29,14 +29,35 @@ body {
   .nav-link:hover {
     color: rgb(76, 191, 237);
   }
+  /* HomePage */
+
   .firstPart {
     color: white;
   }
-  .btn {
+  .CVbttn {
     margin: auto;
     background-color: rgb(76, 191, 237) ;
     color: black;
+    font-weight: 500;
   }
+  .bttnContainer{
+    padding-top: 15px;
+  }
+  .HomeText{
+    font-size: 40px;
+  }
+  .HomeTextName{
+    font-size: 45px;
+  }
+  @media only screen and (min-width: 320px) { 
+    .HomeTextName{ font-size: 25px; }
+   }
+   @media only screen and (min-width: 1024px) { 
+    .HomeTextName{ font-size: 35px; }
+   }
+   @media only screen and (min-width: 1400px) { 
+    .HomeTextName{ font-size: 45px; }
+   }
   
   .myImg{
       width: 50%;
@@ -50,6 +71,37 @@ body {
   .r2 {
     height: 100%;
   }
+  .AboutImg{
+    width: 100%;
+    margin: auto;
+  }
+  @media only screen and (min-width: 768px) { 
+    .AboutImg{
+      width: 50%;
+    }
+   }
+   @media only screen and (min-width: 992px) { 
+    .AboutImg{
+      width: 100%;
+      margin: auto;
+    }
+   }
+   @media screen and (min-width: 992px) {
+    .AbouMeInfo, .course{
+      font-size: 10px;
+    }
+   }
+   @media screen and (min-width: 1300px) {
+    .AbouMeInfo{
+      font-size: 18px;
+    }
+   }
+   @media screen and (min-width: 1300px) {
+    .course{
+      font-size: 20px;  
+    }
+   }
+   
   .course{
       color: rgb(76, 191, 237);
   }
@@ -72,15 +124,7 @@ body {
       font-size: 2vw;
       padding: 10%;
   }
-  .foot{
-      text-align: center;
-      background-color: white;
-      color: black;
-  }
-  .footInfo{
-      padding: 10px;
-      margin: 0;
-  }
+ 
 
   /* Projects */
 
@@ -143,4 +187,18 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+.footContainer{
+  background-color:  #111111;
+}
+.footlogo{
+  font-size: xx-large;
+  padding: 5px;
+}
+.foot{
+  text-align: center;
+}
+.footInfo{
+  padding: 10px;
+  margin: 0;
 }
